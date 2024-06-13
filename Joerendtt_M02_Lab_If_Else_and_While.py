@@ -5,7 +5,7 @@ This program takes the students name and gpa and checks if the student qualified
 '''
 lastName = "NA"
 while lastName != "ZZZ":
-    lastName = input("Input Student's Last Name: ")
+    lastName = input("Input Student's Last Name(or ZZZ to exit): ")
     if lastName != "ZZZ":
         Gpa = float(input("Input Student's GPA: "))
         if Gpa >= 3.25:
